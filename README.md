@@ -4,7 +4,8 @@ Show the channels and messages that the bot can see in the gui.
 このコードを使用する際は別ファイルでdiscord botのclientを起動して
 viewbotgui.start_up()関数をon_ready内で実行してください。
 プロセスを分けないとBotが反応しなくなります
-例
+
+使い方の例:
 ```
 import viewbotgui
 
