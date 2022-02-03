@@ -7,12 +7,17 @@ viewbotgui.start_up()関数をon_ready内で実行してください。
 例
 
 import viewbotgui
+
 intent=discord.Intents.all()
+
 discord.member=True
+
 client = commands.Bot(command_prefix='!',intents=intent)
 
 @client.event
+
 async def on_ready():
+
    viewbotgui.start_up(client)
 
 client.run("Your Token")
